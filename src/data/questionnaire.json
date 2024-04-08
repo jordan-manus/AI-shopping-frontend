@@ -1,0 +1,101 @@
+[
+    {
+        "questionID": "0",
+        "question": "Select your top 3 items from the list below?",
+        "answers": [
+            {
+                "value": "video games",
+                "image": ,
+                "text": "Video Games"
+            },
+            {
+                "value": "board games",
+                "image": ,
+                "text": "Board Games"
+            },
+            {
+                "value": "fashion",
+                "image": ,
+                "text": "Fashion"
+            },
+            {
+                "value": "pets",
+                "image": ,
+                "text": "Pet Neccessaties"
+            },
+            {
+                "value": "hygiene",
+                "image": ,
+                "text": "Hygiene"
+            },
+            {
+                "value": "kitchen",
+                "image": ,
+                "text": "Kitchen Acccessories"
+            },
+            {
+                "value": "food",
+                "image": ,
+                "text": "Food"
+            }
+        ]
+    },
+    {
+        "questionID": "1",
+        "question": "Pick your top 3 from the following category",
+        "answers": [
+            {
+                "value": 4,
+                "image": ,
+                "text": "4 bathrooms"
+            },
+            {
+                "value": 3,
+                "image": ,
+                "text": "3 bathrooms"
+            },
+            {
+                "value": 2,
+                "image": ,
+                "text": "2 bathrooms"
+            },
+            {
+                "value": 1,
+                "image": ,
+                "text": "1 bathroom"
+            }
+        ]
+    },
+    {
+        "questionID": "2",
+        "question": "Do you want a home with or without a garage?",
+        "answers": [
+            {
+                "value": "true",
+                "image": ,
+                "text": "with a garage"
+            },
+            {
+                "value": "false",
+                "image": ,
+                "text": "without a garage"
+            }
+        ]
+    },
+    {
+        "questionID": "3",
+        "question": "With or without an HOA (Home Owner's Association)?",
+        "answers": [
+            {
+                "value": "true",
+                "image": ,
+                "text": "with an HOA"
+            },
+            {
+                "value": "false",
+                "image": ,
+                "text": "without an HOA"
+            }
+        ]
+    }
+]
