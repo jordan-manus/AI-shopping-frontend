@@ -31,7 +31,7 @@ export function Login({ setAuth }) {
     const handleSubmit = (values, token) => {
         const { username, password, email } = values;
         axios
-            .post('https://homepare-backend.onrender.com/login', {
+            .post('https://ai-shopping-app-express.onrender.com/login', {
                 "username": username,
                 "password": password,
             })
@@ -63,14 +63,6 @@ export function Login({ setAuth }) {
                                     defaultValue={visible}
                                     onVisibilityChange={toggle}
                                     {...form.getInputProps('password')}
-                                />
-
-                                <PasswordInput
-                                    label="Confirm Password"
-                                    defaultValue="secret"
-                                    visible={visible}
-                                    onVisibilityChange={toggle}
-                                    {...form.getInputProps('confirmPassword')}
                                 />
                                 <Button type="submit">Login</Button>
                             </Stack>

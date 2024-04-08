@@ -1,6 +1,5 @@
 import axios from "axios";
 import { Route, useNavigate, Link } from "react-router-dom";
-import { Questionnaire } from "./questionnaire";
 import { TextInput, PasswordInput, Button, Title, Text } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { IconAt, IconUserCircle, IconAsterisk } from "@tabler/icons-react";
@@ -33,7 +32,7 @@ export function Register({ setAuth }) {
     const handleSubmit = (values) => {
         const { username, password, email, first_name, last_name } = values;
 
-        axios.post('https://homepare-backend.onrender.com/register', {
+        axios.post('https://ai-shopping-app-express.onrender.com/register', {
             "username": username,
             "password": password,
             "email": email,
@@ -41,7 +40,7 @@ export function Register({ setAuth }) {
             "last_name": last_name
         }).then((res) => {
             return axios
-                .post('https://homepare-backend.onrender.com/login', {
+                .post('https://ai-shopping-app-express.onrender.com/login', {
                     "username": username,
                     "password": password,
                 })
