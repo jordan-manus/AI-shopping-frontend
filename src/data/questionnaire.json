@@ -1,100 +1,85 @@
 [
     {
         "questionID": "0",
-        "question": "Select your top 3 items from the list below?",
+        "question": "Select your favorite from the list below",
         "answers": [
             {
                 "value": "video games",
-                "image": ,
+                "image": "https://m.media-amazon.com/images/I/51Gz7IimgoL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
                 "text": "Video Games"
             },
             {
                 "value": "board games",
-                "image": ,
+                "image": "https://m.media-amazon.com/images/I/71oSGWDuUgL._AC_UL320_.jpg",
                 "text": "Board Games"
             },
             {
                 "value": "fashion",
-                "image": ,
+                "image": "https://m.media-amazon.com/images/I/81Cp63eh5ML._AC_UL320_.jpg",
                 "text": "Fashion"
-            },
-            {
-                "value": "pets",
-                "image": ,
-                "text": "Pet Neccessaties"
-            },
-            {
-                "value": "hygiene",
-                "image": ,
-                "text": "Hygiene"
-            },
-            {
-                "value": "kitchen",
-                "image": ,
-                "text": "Kitchen Acccessories"
-            },
-            {
-                "value": "food",
-                "image": ,
-                "text": "Food"
             }
         ]
     },
     {
         "questionID": "1",
-        "question": "Pick your top 3 from the following category",
+        "question": "Pick your favorite from the following categories:",
         "answers": [
             {
-                "value": 4,
-                "image": ,
-                "text": "4 bathrooms"
+                "value": "pets",
+                "image": "https://m.media-amazon.com/images/I/71t91jvM4ZL._AC_UL320_.jpg",
+                "text": "Pet Neccessaties"
             },
             {
-                "value": 3,
-                "image": ,
-                "text": "3 bathrooms"
+                "value": "hygiene",
+                "image": "https://m.media-amazon.com/images/I/71PHAnXAwoL._AC_UL320_.jpg",
+                "text": "Hygiene"
             },
             {
-                "value": 2,
-                "image": ,
-                "text": "2 bathrooms"
-            },
-            {
-                "value": 1,
-                "image": ,
-                "text": "1 bathroom"
+                "value": "kitchen",
+                "image": "https://m.media-amazon.com/images/I/6175q8Tc6jL._AC_UL320_.jpg",
+                "text": "Kitchen Acccessories"
             }
         ]
     },
     {
         "questionID": "2",
-        "question": "Do you want a home with or without a garage?",
+        "question": "Pick your favorite from the following categories:",
         "answers": [
             {
-                "value": "true",
-                "image": ,
-                "text": "with a garage"
+                "value": "food",
+                "image": "https://m.media-amazon.com/images/I/91sgSA46qsL._AC_UL320_.jpg",
+                "text": "Food"
             },
             {
-                "value": "false",
-                "image": ,
-                "text": "without a garage"
+                "value": "music",
+                "image": "https://m.media-amazon.com/images/I/61IBtPaYPRL._AC_UY218_.png",
+                "text": "Music"
+            },
+            {
+                "value": "electronics",
+                "image": "https://m.media-amazon.com/images/I/61GhF+JUXGL._AC_UY218_.jpg",
+                "text": "Electronics"
             }
         ]
     },
     {
         "questionID": "3",
-        "question": "With or without an HOA (Home Owner's Association)?",
+        "question": "Pick your favorite from the following categories:",
         "answers": [
             {
-                "value": "true",
-                "image": ,
-                "text": "with an HOA"
+                "value": "outdoor",
+                "image": "https://m.media-amazon.com/images/I/61Z6xwIpX1L._AC_UL320_.jpg",
+                "text": "Outdoor Gear"
             },
             {
-                "value": "false",
-                "image": ,
-                "text": "without an HOA"
+                "value": "books",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71x2DZISQRL._AC_UL254_SR254,254_.jpg",
+                "text": "Books"
+            },
+            {
+                "value": "car",
+                "image": "https://m.media-amazon.com/images/I/71220-PZXWL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "text": "Car Accessories"
             }
         ]
     }
