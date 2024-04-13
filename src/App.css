@@ -1,5 +1,5 @@
-#root {
-  max-width: 1280px;
+/* #root { */
+/* max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,185 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  max-width: 120px;
+  max-height: 140px;
+}
+
+
+.previewCard {
+  border: solid pink 3px;
+  max-width: 250px;
+}
+
+.listing-thumbnail {
+  max-width: 150px;
+  max-height: 150px;
+  border: solid aqua 2px;
+  font-size: x-small;
+  margin: 15px;
+}
+
+.userCollection {
+  display: flex;
+  margin: 5px;
+}
+
+div.userCollection {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+.collections-wrapper-in-user-collections {
+  padding: 10px;
+}
+
+hr.rounded-divider-in-user-collections {
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.listing-thumbnail-in-user-collections {
+  max-width: 150px;
+  border: solid rgb(211, 211, 211) 1px;
+  font-size: x-small;
+  margin: 5px;
+}
+
+.thumbnail-text-in-user-collections {
+  text-wrap: wrap;
+}
+
+.thumnail-grid-in-collections-detail {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.listing-thumbnail-in-collections-detail {
+  max-width: 150px;
+  max-height: 150px;
+  border: solid aqua 2px;
+  font-size: x-small;
+  margin: 15px;
+}
+
+/* this is all buttons right now */
+/* button {
+  border: solid black 2px;
+  padding: 3px;
+  margin: 5px;
+} */
+
+/* Questionnaire CSS */
+
+.div-around-questions-answers-and-buttons-in-questionnaire,
+.confirm-summary-div-in-questionnaire {
+
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.buttons-in-questionnaire {
+  font-size: large;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px
+}
+
+.questions-in-questionnaire {
+  padding: 4px;
+  margin: 5px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.questions-in-questionnaire,
+.answers-in-questionnaire {
+  font-size: larger;
+}
+
+.confirm-results-list-in-questionnaire {
+  list-style: none;
+}
+
+.confirm-summary-in-questionnaire {
+  font-size: larger;
+  text-align: center;
+}
+
+.confirm-summary-div-in-questionnaire {
+  text-align: center;
+  align-self: center;
+}
+
+/* My Listings CSS */
+
+.no-listings-div-in-user-listings {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.no-listings-text-in-user-listings {
+  font-size: medium;
+}
+
+.link-in-no-listings-in-user-listings {
+  font-weight: 600;
+  font-size: medium;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+/* My Collections CSS */
+.see-more-in-user-collections {
+  text-align: right;
+}
+
+/* Table CSS */
+
+.checklist-row-in-comparison-table {
+  background-color: var(--mantine-color-dark-8);
+  color: white;
+}
+
+.match-in-comparison-table {
+  background-color: #ccedff;
+  color: black;
+  font-weight: bold;
+}
+
+.not-a-match-in-comparision-table {
+  background-color: #099cff;
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+}
+
+/* CSS in Details Card */
+
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -45,12 +45,12 @@ export function Questionnaire({ token }) {
 
     const handleConfirmClick = () => {
         axios
-            .post("https://homepare-backend.onrender.com/user-preference", {
-                address: null,
-                bedrooms: recordedAnswers[0].value,
-                bathrooms: recordedAnswers[1].value,
-                garage: recordedAnswers[2].value,
-                hoa: recordedAnswers[3].value,
+            .post("https://ai-shopping-app-express.onrender.com/questionnaire", {
+                item1: recordedAnswers[0].value,
+                item2: recordedAnswers[1].value,
+                item3: recordedAnswers[2].value,
+                item4: recordedAnswers[3].value,
+                item5: recordedAnswers[3].value,
                 UserID: "",
             }, {
                 headers: {
@@ -71,7 +71,7 @@ export function Questionnaire({ token }) {
                 <>
                     <div className="confirm-summary-div-in-questionnaire">
                         <Group justify="center">
-                            <Title fw={500} order={3}>You are looking for a home with <br></br><Text span td="underline" inherit>{recordedAnswers[0].text}</Text>,<br></br> <Text span td="underline" inherit>{recordedAnswers[1].text}</Text>,<br></br> <Text span td="underline" inherit>{recordedAnswers[2].text}</Text>, and <Text span td="underline" inherit>{recordedAnswers[3].text}</Text>.
+                            <Title fw={500} order={3}>You're looking for items involving: <br></br><Text span td="underline" inherit>{recordedAnswers[0].text}</Text>,<br></br> <Text span td="underline" inherit>{recordedAnswers[1].text}</Text>,<br></br> <Text span td="underline" inherit>{recordedAnswers[2].text}</Text>, and <Text span td="underline" inherit>{recordedAnswers[3].text}</Text>.
                             </Title>
                         </Group>
                         <Button my={4} size="sm" mt="sm" leftSection={<IconArrowLeft size={14} />} onClick={handleBackClick}>Back</Button>

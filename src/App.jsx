@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import useLocalStorageState from 'use-local-storage-state'
+
 import { Register } from './register'
 import { Login } from './login'
 import { Navigate, Route, Routes } from 'react-router-dom'
@@ -11,6 +12,7 @@ import { Menu } from './Menu'
 import { Logout } from './logout'
 import { UserAccount } from './UserAccount'
 import { NotFound } from './NotFound'
+import { Dashboard } from './dashboard'
 
 
 function App() {
@@ -26,6 +28,10 @@ function App() {
     <>
       <MantineProvider>
         <Routes>
+          <Route
+            path="/"
+            element={!token ? <Navigate to="/login" /> : <Dashboard token={token} />}
+          />
           <Route
             path="/register"
             element={<Register setAuth={setAuth} />}
